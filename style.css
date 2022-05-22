@@ -423,21 +423,28 @@ margin-top: 20%;
   }
     .heroresp{
       
-      width: 100vw;
-      height: 100vh;
+      max-width: auto;
+      height: 100%;
       display: flex;
       object-fit: cover;
+      object-position: center;
+    
+      
     }
     .hero-content{
       position: absolute;
     }
     .heroimg1 , .heroimg2
     {
-      max-width: 100%;max-height: 100%; display: none;
+      width: auto;height:auto; 
+      bottom: 0;
+      display: none;
+
       
     }
     .heroimg2 img{
       display: none;
+      
     }
   }
   /*==============================ABOUT======================*/
