@@ -423,7 +423,7 @@ margin-top: 20%;
   }
     .heroresp{
       
-      width: 100%;
+      width: 100vw;
       height: 100vh;
       display: flex;
       object-fit: cover;
