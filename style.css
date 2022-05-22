@@ -424,11 +424,34 @@ margin-top: 20%;
     .heroresp{
       
       width: auto;
-      height: 100%;
+     height: 100%;
       display: flex;
-      object-fit: cover;
+      object-fit: contain;
       object-position: center;
-    
+
+      
+    }
+    .heroresp1{
+     width:auto;
+      max-height: 90%;
+      z-index: 3;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      
+    }
+    .heroresp2{
+      z-index: -1;
+      width: auto;
+      height:  95vh;
+      object-fit: cover;
+    }
+    .heroresp3{
+      width:auto;
+      max-height: 50%;
+    top: 30%;
+      left: 0;
+      position: absolute;
       
     }
     .hero-content{
@@ -436,8 +459,7 @@ margin-top: 20%;
     }
     .heroimg1 , .heroimg2
     {
-      width: auto;height:auto; 
-      bottom: 0;
+      
       display: none;
 
       
