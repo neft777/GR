@@ -423,10 +423,10 @@ margin-top: 20%;
   }
     .heroresp{
       
-      width: auto;
-      height: 95vh;
+      width: 100%;
+      height: 100vh;
       display: flex;
-      object-fit: contain;
+      object-fit: cover;
     }
     .hero-content{
       position: absolute;
