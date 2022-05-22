@@ -447,15 +447,21 @@ margin-top: 20%;
       object-fit: cover;
     }
     .heroresp3{
-      width:auto;
-      max-height: 50%;
-    top: 30%;
+      width:50%;
+      max-height: auto;
+    top: 500px;
       left: 0;
       position: absolute;
       
     }
+    .heroresp3 img{
+      width: 700px;
+      height: auto;
+    }
     .hero-content{
       position: absolute;
+      top: 30%;
+      color: #000;
     }
     .heroimg1 , .heroimg2
     {
